@@ -3,7 +3,7 @@ import AMapLoader from '@amap/amap-jsapi-loader';
 import { Input } from 'antd';
 import { useEffect, useRef, useState } from 'react';
 window._AMapSecurityConfig = {
-  securityJsCode: '6cd8bbdfe3891af6e40bea9ee4b14760',
+  securityJsCode: '78562d56932fb172e935e75c353590ef',
 };
 const Map = () => {
   const [aMap, setAMap] = useState();
@@ -14,7 +14,7 @@ const Map = () => {
   const { handleSetMapAttr, computeWidthHeight, mapAttr } = useSize(mapRef.current);
   const initMap = () => {
     AMapLoader.load({
-      key: 'e74eea23587c07e542d262dc2454421c',
+      key: '0c78460d8579eebb232d7908aa833ab9',
       version: '2.0',
       plugins: ['AMap.Driving', 'AMap.ToolBar'],
       AMapUI: {
