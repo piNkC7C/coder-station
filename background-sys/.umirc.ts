@@ -101,8 +101,8 @@ export default defineConfig({
       routes: [
         {
           name: 'React培训',
-          path: 'map',
-          component: './Homework/Map'
+          path: 'reprac',
+          component: './Homework/RePrac'
         },
       ],
       icon: 'FileOutlined',
